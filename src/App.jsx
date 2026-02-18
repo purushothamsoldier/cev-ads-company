@@ -1,5 +1,6 @@
 import './App.css'
-import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import Home from './pages/Home'
 import Cabinets from './pages/Cabinets'
 import FixedScreens from './pages/FixedScreens'
@@ -10,9 +11,24 @@ import AboutUs from './pages/AboutUs'
 import ContactUs from './pages/ContactUs'
 import Footer from './components/Footer'
 
+// Scroll to top component
+function ScrollToTop() {
+  const { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'instant'
+    })
+  }, [pathname])
+
+  return null
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         {/* Top Navigation Bar */}
         <nav className="top-navbar">

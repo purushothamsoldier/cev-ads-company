@@ -18,13 +18,13 @@ function Home() {
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80",
       title: "Interactive LED Video Walls",
       description: "Engaging interactive displays for modern businesses"
     },
     {
       id: 4,
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1920&q=80",
+      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1920&q=80",
       title: "Outdoor LED Billboards",
       description: "Large-scale outdoor LED installations for advertising"
     },

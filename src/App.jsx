@@ -52,11 +52,6 @@ function App() {
               <li><Link to="/about">About Us</Link></li>
               <li><Link to="/contact">Contact Us</Link></li>
             </ul>
-
-            {/* Profile Icon */}
-            <div className="profile-icon">
-              👤
-            </div>
           </div>
         </nav>
 

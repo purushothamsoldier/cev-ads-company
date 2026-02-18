@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home'
 import Cabinets from './pages/Cabinets'
 import FixedScreens from './pages/FixedScreens'
@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Router basename="/cev-ads-company">
+    <Router>
       <div className="App">
         {/* Top Navigation Bar */}
         <nav className="top-navbar">

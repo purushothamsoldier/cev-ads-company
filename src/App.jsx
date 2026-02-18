@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <Router>
+    <Router basename="/cev-ads-company">
       <div className="App">
         {/* Top Navigation Bar */}
         <nav className="top-navbar">

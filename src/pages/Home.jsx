@@ -7,32 +7,32 @@ function Home() {
     {
       id: 1,
       image: "./images/i.avif",
-      title: "Premium LED Display Solutions",
-      description: "High-resolution LED displays for indoor and outdoor applications"
+      title: "Looking to Buy LED Displays?",
+      description: "You've come to the right place! Premium quality LED solutions at competitive prices"
     },
     {
       id: 2,
       image: "./images/i2.avif",
-      title: "Digital Advertising Displays",
-      description: "Eye-catching digital signage for maximum impact"
+      title: "Best LED Display Deals",
+      description: "Transform your business with our high-quality LED displays - Your trusted partner"
     },
     {
       id: 3,
       image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80",
-      title: "Interactive LED Video Walls",
-      description: "Engaging interactive displays for modern businesses"
+      title: "Want LED Video Walls?",
+      description: "This is the perfect place! Expert installation and unbeatable quality guaranteed"
     },
     {
       id: 4,
       image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1920&q=80",
-      title: "Outdoor LED Billboards",
-      description: "Large-scale outdoor LED installations for advertising"
+      title: "LED Displays Made Easy",
+      description: "From consultation to installation - We make buying LED displays simple and affordable"
     },
     {
       id: 5,
       image: "./images/led-display-lifetime.jpg",
-      title: "Corporate Display Solutions",
-      description: "Professional LED displays for corporate environments"
+      title: "Your LED Display Destination",
+      description: "Quality products, expert service, competitive prices - Everything you need in one place"
     }
   ]
 

@@ -1,6 +1,6 @@
 import './App.css'
 import { HashRouter as Router, Routes, Route, Link, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Home from './pages/Home'
 import Cabinets from './pages/Cabinets'
 import FixedScreens from './pages/FixedScreens'
@@ -26,6 +26,16 @@ function ScrollToTop() {
 }
 
 function App() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+
+  const toggleMobileMenu = () => {
+    setMobileMenuOpen(!mobileMenuOpen)
+  }
+
+  const closeMobileMenu = () => {
+    setMobileMenuOpen(false)
+  }
+
   return (
     <Router>
       <ScrollToTop />
@@ -52,24 +62,34 @@ function App() {
                 CA
               </div>
               <div className="company-logo-name">
-                <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>
+                <Link to="/" style={{ color: 'white', textDecoration: 'none' }} onClick={closeMobileMenu}>
                   CEV ADS
                 </Link>
               </div>
             </div>
 
+            {/* Hamburger Menu Button */}
+            <button className="mobile-menu-btn" onClick={toggleMobileMenu}>
+              <span className={mobileMenuOpen ? 'active' : ''}></span>
+              <span className={mobileMenuOpen ? 'active' : ''}></span>
+              <span className={mobileMenuOpen ? 'active' : ''}></span>
+            </button>
+
             {/* Navigation Links */}
-            <ul className="nav-links">
-              <li><Link to="/cabinets">Cabinets</Link></li>
-              <li><Link to="/fixed-screens">Fixed Screens</Link></li>
-              <li><Link to="/repairs">Repairs</Link></li>
-              <li><Link to="/fabrication">Fabrication</Link></li>
-              <li><Link to="/installation">Installation</Link></li>
-              <li><Link to="/about">About Us</Link></li>
-              <li><Link to="/contact">Contact Us</Link></li>
+            <ul className={`nav-links ${mobileMenuOpen ? 'mobile-open' : ''}`}>
+              <li><Link to="/cabinets" onClick={closeMobileMenu}>Cabinets</Link></li>
+              <li><Link to="/fixed-screens" onClick={closeMobileMenu}>Fixed Screens</Link></li>
+              <li><Link to="/repairs" onClick={closeMobileMenu}>Repairs</Link></li>
+              <li><Link to="/fabrication" onClick={closeMobileMenu}>Fabrication</Link></li>
+              <li><Link to="/installation" onClick={closeMobileMenu}>Installation</Link></li>
+              <li><Link to="/about" onClick={closeMobileMenu}>About Us</Link></li>
+              <li><Link to="/contact" onClick={closeMobileMenu}>Contact Us</Link></li>
             </ul>
           </div>
         </nav>
+
+        {/* Overlay for mobile menu */}
+        {mobileMenuOpen && <div className="mobile-overlay" onClick={closeMobileMenu}></div>}
 
         {/* Main Content Area with Routes */}
         <main>

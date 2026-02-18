@@ -12,25 +12,25 @@ function Fabrication() {
             <h3 style={{ textAlign: 'center', marginBottom: '30px', fontSize: '2em', color: '#2c3e50' }}>Our Fabrication Process</h3>
             <div className="gallery-grid">
               <div className="gallery-item large">
-                <img src="/images/g1.jpg" alt="LED Fabrication Process 1" />
+                <img src="./images/g1.jpg" alt="LED Fabrication Process 1" />
                 <div className="gallery-overlay">
                   <h4>LED Module Assembly</h4>
                 </div>
               </div>
               <div className="gallery-item">
-                <img src="/images/g2.webp" alt="LED Fabrication Process 2" />
+                <img src="./images/g2.webp" alt="LED Fabrication Process 2" />
                 <div className="gallery-overlay">
                   <h4>Quality Testing</h4>
                 </div>
               </div>
               <div className="gallery-item">
-                <img src="/images/g3.png" alt="LED Fabrication Process 3" />
+                <img src="./images/g3.png" alt="LED Fabrication Process 3" />
                 <div className="gallery-overlay">
                   <h4>Cabinet Manufacturing</h4>
                 </div>
               </div>
               <div className="gallery-item large">
-                <img src="/images/g5.webp" alt="LED Fabrication Process 5" />
+                <img src="./images/g5.webp" alt="LED Fabrication Process 5" />
                 <div className="gallery-overlay">
                   <h4>Final Assembly</h4>
                 </div>

@@ -7,7 +7,7 @@ function FixedScreens() {
         <div className="led-cards-grid">
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f1.png" alt="Fixed LED Screen" />
+              <img src="./images/f1.png" alt="Fixed LED Screen" />
             </div>
             <div className="led-card-content">
               <h3>P5 Outdoor LED Screen</h3>
@@ -17,7 +17,7 @@ function FixedScreens() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f2.avif" alt="Outdoor Fixed Screen" />
+              <img src="./images/f2.avif" alt="Outdoor Fixed Screen" />
             </div>
             <div className="led-card-content">
               <h3>P4 Outdoor LED Screen</h3>
@@ -27,7 +27,7 @@ function FixedScreens() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f3.jpg" alt="Wall Mounted LED" />
+              <img src="./images/f3.jpg" alt="Wall Mounted LED" />
             </div>
             <div className="led-card-content">
               <h3>P3 Outdoor LED Screen</h3>
@@ -37,7 +37,7 @@ function FixedScreens() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f4.avif" alt="Fixed Video Wall" />
+              <img src="./images/f4.avif" alt="Fixed Video Wall" />
             </div>
             <div className="led-card-content">
               <h3>P2.5 Outdoor LED Screen</h3>
@@ -47,7 +47,7 @@ function FixedScreens() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f5.webp" alt="Billboard LED Screen" />
+              <img src="./images/f5.webp" alt="Billboard LED Screen" />
             </div>
             <div className="led-card-content">
               <h3>P2.5 Indoor LED Screen</h3>

@@ -6,31 +6,31 @@ function Home() {
   const slides = [
     {
       id: 1,
-      image: "/images/i.avif",
+      image: "./images/i.avif",
       title: "Premium LED Display Solutions",
       description: "High-resolution LED displays for indoor and outdoor applications"
     },
     {
       id: 2,
-      image: "/images/i2.avif",
+      image: "./images/i2.avif",
       title: "Digital Advertising Displays",
       description: "Eye-catching digital signage for maximum impact"
     },
     {
       id: 3,
-      image: "/images/i3.jpg",
+      image: "./images/i3.jpg",
       title: "Interactive LED Video Walls",
       description: "Engaging interactive displays for modern businesses"
     },
     {
       id: 4,
-      image: "/images/i4.jpg",
+      image: "./images/i4.jpg",
       title: "Outdoor LED Billboards",
       description: "Large-scale outdoor LED installations for advertising"
     },
     {
       id: 5,
-      image: "/images/led-display-lifetime.jpg",
+      image: "./images/led-display-lifetime.jpg",
       title: "Corporate Display Solutions",
       description: "Professional LED displays for corporate environments"
     }
@@ -103,7 +103,7 @@ function Home() {
         <div className="led-cards-grid">
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/CABINET 1.jpg" alt="LED Cabinet Module" />
+              <img src="./images/CABINET 1.jpg" alt="LED Cabinet Module" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 4.8P Cabinet</h3>
@@ -113,7 +113,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabinet 2.png" alt="Outdoor LED Module" />
+              <img src="./images/cabinet 2.png" alt="Outdoor LED Module" />
             </div>
             <div className="led-card-content">
               <h3>Indoor Pixel 3.9P Cabinet</h3>
@@ -123,7 +123,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabinet 3.jpg" alt="LED Display Cabinet" />
+              <img src="./images/cabinet 3.jpg" alt="LED Display Cabinet" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 3.9P Cabinet</h3>
@@ -133,7 +133,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cABINET 4.jpg" alt="Rental LED Cabinet" />
+              <img src="./images/cABINET 4.jpg" alt="Rental LED Cabinet" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 3.7P Cabinet</h3>
@@ -143,7 +143,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabint 6.webp" alt="Fine Pitch LED Module" />
+              <img src="./images/cabint 6.webp" alt="Fine Pitch LED Module" />
             </div>
             <div className="led-card-content">
               <h3>Indoor Pixel 2.5P Cabinet</h3>
@@ -153,7 +153,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabint7.jpg" alt="Transparent LED Cabinet" />
+              <img src="./images/cabint7.jpg" alt="Transparent LED Cabinet" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 5.0P Cabinet</h3>
@@ -163,7 +163,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabint 8.png" alt="Curved LED Module" />
+              <img src="./images/cabint 8.png" alt="Curved LED Module" />
             </div>
             <div className="led-card-content">
               <h3>Indoor Pixel 3.0P Cabinet</h3>
@@ -224,7 +224,7 @@ function Home() {
         <div className="led-cards-grid">
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f1.png" alt="Fixed LED Screen" />
+              <img src="./images/f1.png" alt="Fixed LED Screen" />
             </div>
             <div className="led-card-content">
               <h3>P5 Outdoor LED Screen</h3>
@@ -234,7 +234,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f2.avif" alt="Outdoor Fixed Screen" />
+              <img src="./images/f2.avif" alt="Outdoor Fixed Screen" />
             </div>
             <div className="led-card-content">
               <h3>P4 Outdoor LED Screen</h3>
@@ -244,7 +244,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f3.jpg" alt="Wall Mounted LED" />
+              <img src="./images/f3.jpg" alt="Wall Mounted LED" />
             </div>
             <div className="led-card-content">
               <h3>P3 Outdoor LED Screen</h3>
@@ -254,7 +254,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f4.avif" alt="Fixed Video Wall" />
+              <img src="./images/f4.avif" alt="Fixed Video Wall" />
             </div>
             <div className="led-card-content">
               <h3>P2.5 Outdoor LED Screen</h3>
@@ -264,7 +264,7 @@ function Home() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/f5.webp" alt="Billboard LED Screen" />
+              <img src="./images/f5.webp" alt="Billboard LED Screen" />
             </div>
             <div className="led-card-content">
               <h3>P2.5 Indoor LED Screen</h3>

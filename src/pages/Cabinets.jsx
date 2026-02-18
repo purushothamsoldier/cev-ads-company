@@ -7,7 +7,7 @@ function Cabinets() {
         <div className="led-cards-grid">
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/CABINET 1.jpg" alt="LED Cabinet Module" />
+              <img src="./images/CABINET 1.jpg" alt="LED Cabinet Module" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 4.8P Cabinet</h3>
@@ -17,7 +17,7 @@ function Cabinets() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabinet 2.png" alt="Outdoor LED Module" />
+              <img src="./images/cabinet 2.png" alt="Outdoor LED Module" />
             </div>
             <div className="led-card-content">
               <h3>Indoor Pixel 3.9P Cabinet</h3>
@@ -27,7 +27,7 @@ function Cabinets() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabinet 3.jpg" alt="LED Display Cabinet" />
+              <img src="./images/cabinet 3.jpg" alt="LED Display Cabinet" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 3.9P Cabinet</h3>
@@ -37,7 +37,7 @@ function Cabinets() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cABINET 4.jpg" alt="Rental LED Cabinet" />
+              <img src="./images/cABINET 4.jpg" alt="Rental LED Cabinet" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 3.7P Cabinet</h3>
@@ -47,7 +47,7 @@ function Cabinets() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabint 6.webp" alt="Fine Pitch LED Module" />
+              <img src="./images/cabint 6.webp" alt="Fine Pitch LED Module" />
             </div>
             <div className="led-card-content">
               <h3>Indoor Pixel 2.5P Cabinet</h3>
@@ -57,7 +57,7 @@ function Cabinets() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabint7.jpg" alt="Transparent LED Cabinet" />
+              <img src="./images/cabint7.jpg" alt="Transparent LED Cabinet" />
             </div>
             <div className="led-card-content">
               <h3>Outdoor Pixel 5.0P Cabinet</h3>
@@ -67,7 +67,7 @@ function Cabinets() {
 
           <div className="led-card">
             <div className="led-card-image">
-              <img src="/images/cabint 8.png" alt="Curved LED Module" />
+              <img src="./images/cabint 8.png" alt="Curved LED Module" />
             </div>
             <div className="led-card-content">
               <h3>Indoor Pixel 3.0P Cabinet</h3>
